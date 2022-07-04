@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css" type="text/css">
+    <title>Challenge Chapter 4</title>
+</head>
+<body>
+    <div id="app" >
+        <h1 class="title">ROCK PAPER SCISSORS</h1>
+        <div class="main">
+            <div class="player1">
+                <h2 style="padding-bottom: 20px;">PLAYER 1</h2>
+                <div class="option" onclick="pickOption('✊')">
+                    <img src="/assets/batu.png" alt="batu.jpg" style="width: 100px;height:100px;padding: 10px;">
+                </div>
+                <div class="option" onclick="pickOption('✋')">
+                    <img src="/assets/kertas.png" alt="kertas.jpg" style="width:100px;height:100px;padding:10px;">
+                </div>
+                <div class="option" onclick="pickOption('✌')">
+                    <img src="/assets/gunting.png" alt="gunting.jpg" style="width:100px;height:100px;padding:10px;"> 
+                </div>
+            </div>
+            <div class="boxresult">
+                <div id="vs">
+                    <h1>VS</h1>
+
+                </div> 
+            </div>
+            <div class="com">
+                <h2 style="padding-bottom: 20px;">COM</h2>
+                <div class="option" onclick="pickOption('✊')">
+                    <img src="/assets/batu.png" alt="batu.jpg" style="width:100px;height:100px;padding: 10px;">
+                </div>
+                <div class="option" onclick="pickOption('✋')">
+                    <img src="/assets/kertas.png" alt="kertas.jpg" style="width:100px;height:100px;padding:10px;">
+                </div>
+                <div class="option" onclick="pickOption('✌')">
+                    <img src="/assets/gunting.png" alt="gunting.jpg" style="width:100px;height:100px;padding:10px;"> 
+                </div>
+                
+            </div>
+        </div>
+        <div class="refresh">
+            <img  src="/assets/refresh.png" alt="refresh.jpg" style="width:50px;height:50px;">
+        </div>
+
+    </div>
+    <script src="assets/js/main.js"></script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="/assets/css/adduser.css" type="text/css">
+</head>
+
+<body>
+    <h3>Edit</h3>
+
+    <form action="/user/<%=user.id%>/update" method="post">
+        <div>
+            <input 
+            type="text" 
+            id="username" 
+            name="username" 
+            placeholder="Username" 
+            value="<%= user.username %>"
+            required
+            />
+        </div>
+        <div>
+            <input 
+            type="password" 
+            id="password" 
+            name="password" 
+            placeholder="Password" 
+            value="<%=user.password%>"
+            required
+            />
+        </div>
+        <div>
+            <input 
+            type="text" 
+            name="first_name" 
+            id="firstname" 
+            placeholder="First Name" 
+            value="<%=user.user_game_biodatum.first_name%>"
+            required
+            />
+        </div>
+        <div>
+            <input 
+            type="text" 
+            name="last_name" 
+            id="lastname" 
+            placeholder="Last Name" 
+            value="<%=user.user_game_biodatum.last_name%>"
+            required
+            />
+        </div>
+        <div>
+            <input 
+            type="text" 
+            name="birthplace" 
+            id="birthplace" 
+            placeholder="Birthplace" 
+            value="<%=user.user_game_biodatum.birthplace%>"
+            required
+            />
+        </div>
+        <div>
+            <input type="submit" value="Update">
+        </div>
+    </form>
+</body>
+
+</html>

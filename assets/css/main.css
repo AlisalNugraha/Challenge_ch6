@@ -1,0 +1,75 @@
+:root {
+    box-sizing: border-box;
+}
+
+html , body , * {
+    margin: 0;
+    padding: 0;
+}
+.title {
+    padding-top: 10px;
+    padding-left: 20px;
+    color: yellow;
+}
+
+#app {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background-color: #9C835F;
+}
+
+.main {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.player1 {
+    display: grid;
+    margin-right: 15%;  
+    text-align: center; 
+}
+
+.boxresult {
+    display: grid;
+    text-align: center;
+}
+
+#vs {
+    grid-row: 2;
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.com {
+    display: grid;
+    margin-left: 15%;
+    text-align: center;
+}
+.player1 .option:hover {
+    border-radius: 10px;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.refresh:hover {
+    border-radius: 10px;
+    background-color: grey;
+    cursor: pointer;
+
+}
+.refresh {
+    display: grid;
+    text-align: center;  
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 48%;
+     
+  }

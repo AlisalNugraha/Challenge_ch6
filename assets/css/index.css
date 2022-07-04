@@ -1,0 +1,126 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* navbar style */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav-link{
+    font-size: 12px;
+
+}
+
+.nav-link.active.active {
+    font-weight: 700;
+}
+
+.button-signup {
+    font-size: 12px;
+    border: none;
+    background-color: transparent;
+    color: white;
+
+}
+
+.button-login {
+    font-size: 12px;
+    border: none;
+    background-color: transparent;
+    color: white;
+
+}
+
+/* Main Section */
+
+.main-bg {
+    background: url(/assets/main-bg.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+}
+
+.games-bg {
+    background: url(/assets/the-games-bg.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 50%;
+    color: white;
+}
+
+.carousel-item {
+    height: 500px;
+
+    
+}
+
+
+.features {
+    background-image: url(/assets/features.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px ;
+    position: relative;
+}
+
+.features-text {
+    text-justify: right;
+    position: absolute;
+    top: 27%;
+    right: 23%;
+    color: white;
+}
+
+.features-description {
+    text-justify: right;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+
+}
+
+.requirements {
+    background-image: url(/assets/requirements.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px ;
+    position: relative;
+}
+
+.requirements-text {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+.requirements-table {
+   position: absolute;
+   top: 30%;
+   left: 10%;
+   color: white;
+}
+
+.topscores-bg {
+    background-image: url(/assets/topscores.jpg) , linear-gradient(45deg , #fff,#000);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px ;
+    position: relative;
+   
+}
+
+.topscores-text {
+    position: absolute;
+   top: 40%;
+   left: 10%;
+   color: white;
+}
